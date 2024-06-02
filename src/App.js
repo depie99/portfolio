@@ -1,21 +1,19 @@
-import './App.css';
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
+import "./App.css";
+import About from "./src/about/About";
+import Home from "./src/home/Home";
 import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
-import Works from "./components/Works";
+import Skills from "./src/skills/Skills";
+import Works from "./src/works/Works";
 
 function App() {
   return (
-      <div>
-        <Navbar />
-        <Home />
-        <About />
-        <Skills />
-        <Works />
-        <Contact />
-      </div>
+    <div className="pb-8 mb-5">
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Works />
+    </div>
   );
 }
 
